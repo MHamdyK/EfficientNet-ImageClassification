@@ -25,6 +25,7 @@ This project shows how to:
 - Plot training/validation accuracy and loss curves, classification reports, and confusion matrices.
 
 ## Directory Structure
+```plaintext
 EfficientNet-ImageClassification/
 ├── data/
 │   ├── README.md             # Dataset download instructions
@@ -41,7 +42,7 @@ EfficientNet-ImageClassification/
 ├── requirements.txt          # List of required Python packages
 ├── README.md                 # Project overview and instructions
 └── .gitignore                # Files/folders to ignore in Git
-
+```
 
 ## Setup and Installation
 
