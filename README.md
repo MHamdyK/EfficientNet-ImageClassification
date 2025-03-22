@@ -25,7 +25,23 @@ This project shows how to:
 - Plot training/validation accuracy and loss curves, classification reports, and confusion matrices.
 
 ## Directory Structure
-RPS-EfficientNet-TransferLearning/ ├── data/ │ ├── README.md # Dataset download instructions │ └── download_dataset.sh # (Optional) Script to download and extract the dataset ├── notebooks/ │ └── efficientnet_transfer_learning.ipynb # Colab/Jupyter notebook ├── src/ │ ├── init.py # Package initializer │ ├── config.py # Configuration settings │ ├── data_utils.py # Dataset extraction and organization functions │ ├── train.py # Training routines for both transfer learning approaches │ ├── evaluate.py # Evaluation and plotting functions │ └── utils.py # Utility functions ├── requirements.txt # List of required Python packages ├── README.md # Project overview and instructions └── .gitignore # Files/folders to ignore in Git
+EfficientNet-ImageClassification/
+├── data/
+│   ├── README.md             # Dataset download instructions
+│   └── download_dataset.sh   # (Optional) Script to download and extract the dataset
+├── notebooks/
+│   └── efficientnet_transfer_learning.ipynb   # Colab/Jupyter notebook
+├── src/
+│   ├── __init__.py           # Package initializer
+│   ├── config.py             # Configuration settings
+│   ├── data_utils.py         # Dataset extraction and organization functions
+│   ├── train.py              # Training routines for both transfer learning approaches
+│   ├── evaluate.py           # Evaluation and plotting functions
+│   └── utils.py              # Utility functions
+├── requirements.txt          # List of required Python packages
+├── README.md                 # Project overview and instructions
+└── .gitignore                # Files/folders to ignore in Git
+
 
 ## Setup and Installation
 
